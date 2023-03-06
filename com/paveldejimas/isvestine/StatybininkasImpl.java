@@ -53,6 +53,7 @@ public class StatybininkasImpl implements Statybininkas {
         this.issilavinimas=issilavinimas;
         this.specializacija=specializacija;
         this.atlyginimas=atlyginimas;
+
     }
 
     @Override
@@ -64,4 +65,5 @@ public class StatybininkasImpl implements Statybininkas {
                 ", atlyginimas=" + atlyginimas +
                 '}';
     }
+
 }
